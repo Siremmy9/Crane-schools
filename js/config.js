@@ -16,7 +16,7 @@ const schoolConfig = {
 
   phone: "+234 816 202 2271",
   email: "info@Craneschool.com",
-  whatsapp: "2348022022271",
+  whatsapp: "2348162022271",
   whatsappMessage:
     "Hello Crane Schools, I would like to make an enquiry about admission.",
   openingHours:

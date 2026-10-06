@@ -4,7 +4,7 @@ const schoolContent = {
       name: "Mr Crane ",
       position: "Principal",
       department: "Administration",
-      photo: "assets/images/gallery/staff.jpg",
+      photo: "assets/images//staff.jpg",
       bio: "Propiertor. Motivated Educator, Leading with zeal and dedication",
     },
     {
@@ -44,7 +44,7 @@ const schoolContent = {
     },
   ],
 
-  /* ------------------------------ GALLERY ------------------------------ */
+  /* ------------------------------  ------------------------------ */
   // category must be one of: Classrooms, Students, Events, Sports, Graduation,
   // Cultural Activities, Facilities  (list is galleryCategories in config.js)
   gallery: [
@@ -195,7 +195,7 @@ const schoolContent = {
         "Admission is open for Crèche, Nursery, Primary and Secondary.\n\nUse the Apply Now button or message us on WhatsApp.",
     },
     // {
-    //   title: "Admission Announcement",
+    //   title: "Admission Announcement ",
     //   category: "Admissions",
     //   date: "2026-07-21",
     //   image: "assets/images/eagleadmission.jpg",
@@ -230,33 +230,33 @@ const schoolContent = {
       title: "ICT Laboratory",
       description:
         "Computers for hands-on digital skills from the early years.",
-      image: "assets/images/gallery/computerlab.jpg",
+      image: "assets/images//computerlab.jpg",
     },
     {
       title: "Science Laboratory",
       description: "Safe space for experiments that bring science to life.",
-      image: "assets/images/gallery/lab.jpg",
+      image: "assets/images//lab.jpg",
     },
     {
       title: "Library",
       description: "A quiet reading space with age-appropriate books.",
-      image: "assets/images/gallery/library.jpg",
+      image: "assets/images//library.jpg",
     },
     {
       title: "Playground",
       description: "Safe outdoor play areas for the youngest learners.",
-      image: "assets/images/gallery/playground.jpg",
+      image: "assets/images//playground.jpg",
     },
     {
       title: "Sports Facilities",
       description:
         "Space for football, athletics and inter-house competitions.",
-      image: "assets/images/gallery/sports.jpg",
+      image: "assets/images//sports.jpg",
     },
     {
       title: "School Bus",
       description: "Safe, supervised transport on set routes.",
-      image: "assets/images/gallery/bus.jpg",
+      image: "assets/images//bus.jpg",
     },
     {
       title: "Security",
@@ -266,12 +266,12 @@ const schoolContent = {
     {
       title: "Cafeteria",
       description: "Clean, supervised space for meals and snacks.",
-      image: "assets/images/gallery/cafteria.jpg",
+      image: "assets/images//cafteria.jpg",
     },
     {
       title: "Medical and First Aid",
       description: "First-aid support for minor injuries and emergencies.",
-      image: "assets/images/gallery/firstaid.jpg",
+      image: "assets/images//firstaid.jpg",
     },
     {
       title: "Creative Arts Area",
