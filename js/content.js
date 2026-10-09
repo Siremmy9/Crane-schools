@@ -4,21 +4,21 @@ const schoolContent = {
       name: "Mr Crane ",
       position: "Principal",
       department: "Administration",
-      photo: "assets/images//staff.jpg",
+      photo: "assets/images/logo.jpg",
       bio: "Propiertor. Motivated Educator, Leading with zeal and dedication",
     },
     {
       name: "Mrs Crane",
       position: "Vice Principal",
       department: "Administration",
-      photo: "assets/images/logo.jpg",
+      photo: "assets/icons/logo.jpg",
       bio: "Vice Principal. Motivated Educator, Leading with zeal and Precision",
     },
     {
       name: "Mrs Adeleke",
       position: "Head Teacher",
       department: "Primary",
-      photo: "assets/images/client3.jpg",
+      photo: "assets/icons/logo.jpg",
       bio: "Head Teacher. Leading with zeal and dedication",
     },
     {
@@ -42,6 +42,7 @@ const schoolContent = {
       photo: "assets/images/logo.jpg",
       bio: "ad sed aperiam porro. Sunt mollitia quidem voluptatum ducimus cumque unde.",
     },
+   
   ],
 
   /* ------------------------------  ------------------------------ */
@@ -49,17 +50,17 @@ const schoolContent = {
   // Cultural Activities, Facilities  (list is galleryCategories in config.js)
   gallery: [
     {
-      image: "assets/images/facilities/session.jpg",
+      image: "assets/images/gallery/celebration.jpg",
       caption: "Crane students",
       category: "Classrooms",
     },
     {
-      image: "assets/images/facilities/celebration.jpg",
+      image: "assets/images/gallery/session.jpg",
       caption: "Reading time",
       category: "Students",
     },
     {
-      image: "assets/images/computerlab.jpg",
+      image: "assets/images/gallery/compclass.jpg",
       caption: "ICT Lab",
       category: "ICT Laboratory",
     },
@@ -69,17 +70,17 @@ const schoolContent = {
       category: "Graduation",
     },
     {
-      image: "assets/images/facilities/jclassofweek.jpg",
+      image: "assets/images/gallery/kidsart.jpg",
       caption: "Cultural parade",
       category: "Outdoor Activities",
     },
     {
-      image: "assets/images/facilities/lab.jpg",
+      image: "assets/images/gallery/cranelab.jpg",
       caption: "Science corner",
       category: "Facilities",
     },
     {
-      image: "assets/images/facilities/assembly.jpg",
+      image: "assets/images/gallery/assembly.jpg",
       caption: "Assembly",
       category: "Students",
     },
@@ -118,7 +119,7 @@ const schoolContent = {
       title: "School Resumption",
       category: "Announcement",
       date: "2026-09-14",
-      image: "assets/images/facilities/flyer.jpg",
+      image: "assets/images/news/flyer.jpg",
       published: true,
       excerpt:
         "Resumption dates, school hours and first-week arrangements are shared here once confirmed.",
@@ -129,7 +130,7 @@ const schoolContent = {
       title: "Inter-House Sports",
       category: "Sports",
       date: "2026-09-07",
-      image: "assets/images/facilities/inthsport.jpg",
+      image: "assets/images/news/inthsport.jpg",
       published: true,
       excerpt:
         "Highlights, house points and photos from the school's sports competition.",
@@ -139,7 +140,7 @@ const schoolContent = {
       title: "Graduation Ceremony",
       category: "Events",
       date: "2026-08-30",
-      image: "assets/images/gallery/graduation.jpg",
+      image: "assets/images/news/graduation.jpg",
       published: true,
       excerpt:
         "Details of the ceremony for graduating pupils, with a guide for families.",
@@ -149,7 +150,7 @@ const schoolContent = {
       title: "Sanitation",
       category: "Events",
       date: "2026-08-23",
-      image: "assets/images/facilities/sanitation.jpg",
+      image: "assets/images/news/sanitation.jpg",
       published: true,
       excerpt: "Community service | Civic Education Practicals",
       content: "TBA.",
@@ -158,7 +159,7 @@ const schoolContent = {
       title: "Cultural Day",
       category: "Events",
       date: "2026-08-15",
-      image: "assets/images/gallery/cultural.jpg",
+      image: "assets/images/news/cultural.jpg",
       published: true,
       excerpt:
         "A day to celebrate Nigerian cultures through food, dress, music and dance.",
@@ -168,7 +169,7 @@ const schoolContent = {
       title: "Music Classes",
       category: "Events",
       date: "2026-08-07",
-      image: "assets/images/facilities/music.jpg",
+      image: "assets/images/news/music.jpg",
       published: true,
       excerpt:
         "Music Practicals where students will learn how to play instruments",
@@ -178,7 +179,7 @@ const schoolContent = {
       title: " Sci-Facts",
       category: "Academics",
       date: "2026-07-29",
-      image: "assets/images/facilities/quote4.jpg",
+      image: "assets/images/news/quote4.jpg",
       published: true,
       excerpt: "The examination timetable and guidance for parents and pupils.",
       content: "TBA.",
@@ -187,7 +188,7 @@ const schoolContent = {
       title: "End of Year | Christmas celebration",
       category: "Events",
       date: "2026-07-21",
-      image: "assets/images/facilities/christmas.jpg",
+      image: "assets/images/news/christmas.jpg",
       published: true,
       excerpt:
         "Admission is open. Read how to begin the process for your child.",
@@ -209,7 +210,7 @@ const schoolContent = {
       title: "Disclaimer ",
       category: "Announcement",
       date: "2026-07-21",
-      image: "assets/images/facilities/disclaimer.jpg",
+      image: "assets/images/news/disclaimer.jpg",
       published: true,
       excerpt:
         "This is to inform the public that MR.THOMAS FRANCIS AKPONG is no more in our establishment since 2025",
@@ -230,17 +231,17 @@ const schoolContent = {
       title: "ICT Laboratory",
       description:
         "Computers for hands-on digital skills from the early years.",
-      image: "assets/images//computerlab.jpg",
+      image: "assets/images/computerlab.jpg",
     },
     {
       title: "Science Laboratory",
       description: "Safe space for experiments that bring science to life.",
-      image: "assets/images//lab.jpg",
+      image: "assets/images/facilities/cranelab.jpg",
     },
     {
       title: "Library",
       description: "A quiet reading space with age-appropriate books.",
-      image: "assets/images//library.jpg",
+      image: "assets/images/facilities/library.jpg",
     },
     {
       title: "Playground",
@@ -251,12 +252,12 @@ const schoolContent = {
       title: "Sports Facilities",
       description:
         "Space for football, athletics and inter-house competitions.",
-      image: "assets/images//sports.jpg",
+      image: "assets/images/facilities/sports.jpg",
     },
     {
       title: "School Bus",
       description: "Safe, supervised transport on set routes.",
-      image: "assets/images//bus.jpg",
+      image: "assets/images/bus.jpg",
     },
     {
       title: "Security",
@@ -266,12 +267,12 @@ const schoolContent = {
     {
       title: "Cafeteria",
       description: "Clean, supervised space for meals and snacks.",
-      image: "assets/images//cafteria.jpg",
+      image: "assets/images/facilities/cafteria.jpg",
     },
     {
       title: "Medical and First Aid",
       description: "First-aid support for minor injuries and emergencies.",
-      image: "assets/images//firstaid.jpg",
+      image: "assets/images/facilities/firstaid.jpg",
     },
     {
       title: "Creative Arts Area",

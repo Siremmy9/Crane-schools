@@ -29,11 +29,11 @@ const schoolConfig = {
   heroPoster: "assets/images/logo.jpg",
 
   images: {
-    about: "assets/images/facilities/flyer.jpg",
-    creche: "assets/images/facilities/kids.jpg",
-    nursery: "assets/images/facilities/class2.jpg",
-    primary: "assets/images/facilities/class3.jpg",
-    secondary: "assets/images/facilities/seniors.jpg",
+    about: "assets/images/gallery/building.jpg",
+    creche: "assets/images/kidsassembly.jpg",
+    nursery: "assets/images/kids.jpg",
+    primary: "assets/images/class3.jpg",
+    secondary: "assets/images/seniors.jpg",
   },
 
   mapUrl:
@@ -194,5 +194,5 @@ const schoolConfig = {
     "Parents",
   ],
 
-  siteUrl: "", // e.g. "https://www.Crane.com" (used for SEO; update canonical tags in the HTML too)
+  siteUrl: "", // e.g about. "https://www.Crane.com" (used for SEO; update canonical tags in the HTML too)
 };
